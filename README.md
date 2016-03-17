@@ -1,6 +1,6 @@
 # u-xyzReader
 
-Apply [Material design](http://www.google.com/design/spec/material-design/introduction.html) guidelines 
+Apply [Material design](http://www.google.com/design/spec/material-design/introduction.html) guidelines
 
 
 ## Libraries
@@ -8,9 +8,6 @@ Apply [Material design](http://www.google.com/design/spec/material-design/introd
 * [ButterKnife](https://github.com/JakeWharton/butterknife)
 * [Glide](https://github.com/bumptech/glide)
 * [OkHttp](http://square.github.io/okhttp/)
-
-Before `XYZReader`
-After `app`
 
 ## License
     Copyright 2016 Timofey Rytikov

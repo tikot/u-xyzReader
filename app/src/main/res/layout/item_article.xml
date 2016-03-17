@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="0dp"
-    android:padding="16dp"
+    android:padding="@dimen/material_padding"
     android:clickable="true"
     android:focusable="true"
     style="@style/AppCardView" >
@@ -11,21 +11,21 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
+        android:padding="@dimen/material_padding"
         android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp" android:layout_height="wrap_content"
             android:layout_weight="1" android:orientation="vertical"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp">
+            android:paddingLeft="@dimen/material_small_padding"
+            android:paddingRight="@dimen/material_small_padding">
 
             <TextView
                 android:id="@+id/article_title"
                 style="@style/TextAppearance.AppCompat.Subhead"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="8dp"
+                android:paddingBottom="@dimen/material_small_padding"
                 android:ellipsize="end"
                 android:maxLines="4"
                 tools:text="@string/placeholder_title"/>
@@ -47,8 +47,8 @@
             android:background="@color/cardview_dark_background"
             android:id="@+id/thumbnail"
             android:scaleType="centerCrop"
-            android:layout_height="100dp"
-            android:layout_width="100dp" />
+            android:layout_height="@dimen/list_item_dimen"
+            android:layout_width="@dimen/list_item_dimen" />
 
     </LinearLayout>
 
